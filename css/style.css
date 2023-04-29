@@ -1,3 +1,6 @@
+*{list-style: none;}
+
+
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -35,13 +38,13 @@ body {
     overflow-y: hidden; }
 
 a {
-  color: #CA82F8;
+  color: orangered;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover {
     text-decoration: underline;
-    color: #CA82F8; }
+    color: orangered; }
   a:focus, a:active {
     outline: none; }
 
@@ -205,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
           outline: none;
           text-decoration: none; }
       #colorlib-main-nav ul li.active a {
-        color: #CA82F8; }
+        color: orangered; }
   #colorlib-main-nav .form-group {
     margin-bottom: 40px;
     position: relative;
@@ -239,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background: #CA82F8;
+    background: orangered;
     color: #fff;
     border: none;
     padding: 16px; }
@@ -356,7 +359,7 @@ header {
   left: -50px; }
   .rotate .heading {
     font-family: "Karla", Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;font-weight: 860;
     text-transform: uppercase;
     letter-spacing: 1em;
     -webkit-transform: rotate(90deg);
@@ -687,21 +690,22 @@ header {
         width: 100%;
         display: block; } }
 
-.services {
+.services {background-color:orangered;
   margin-bottom: 4em; }
   .services h3 {
+    color: rgb(253, 247, 244);
     font-family: "Karla", Arial, sans-serif;
-    font-size: 16px;
+    font-size: 28px;
     text-transform: uppercase;
     font-weight: 700; }
   .services ul li {
-    list-style: none;
+    color: rgb(252, 244, 241);
+    list-style: none;font-size: 20;
     margin-bottom: 10px; }
     .services ul li::before {
       content: '\2022';
-      color: #000;
       display: inline-block;
-      width: 1em;
+      width: 2em;
       margin-left: -1em; }
 
 .work-entry {
@@ -816,11 +820,8 @@ header {
     box-shadow: none;
     border: none; }
 
-.article {
-  display: block;
-  margin-bottom: 6em; }
   .article .blog-img {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     display: block;
     position: relative;
     overflow: hidden;
@@ -853,7 +854,6 @@ header {
       left: 90%;
       display: table;
       width: 100%;
-      opacity: 0;
       -webkit-transition: 0.7s;
       -o-transition: 0.7s;
       transition: 0.7s; }
@@ -862,7 +862,7 @@ header {
         vertical-align: middle;
         font-family: "Karla", Arial, sans-serif;
         color: #fff;
-        font-size: 12px;
+        font-size: 26px;font-weight: 900;padding: 3vw;background-color:orangered;
         text-transform: uppercase;
         letter-spacing: 5px;
         -webkit-transform: rotate(-90deg);
@@ -874,14 +874,7 @@ header {
         -ms-transform-origin: 0;
         transform-origin: 0;
         position: relative; }
-        .article .blog-img .link .read:after {
-          position: absolute;
-          top: 10px;
-          left: -50px;
-          content: '';
-          background: #fff;
-          width: 40px;
-          height: 1px; }
+       
     .article .blog-img:hover .overlay {
       opacity: 1; }
     .article .blog-img:hover .link {
@@ -897,8 +890,8 @@ header {
     position: relative; }
     .article .desc .meta {
       position: absolute;
-      top: -80px;
-      left: 20px;
+      top: -12vw;
+      left: 45%;
       background: #FFE9E3;
       color: #000;
       padding: 20px 10px;
@@ -989,18 +982,18 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #CA82F8;
+  background: orangered;
   color: #fff;
-  border: 2px solid #CA82F8; }
+  border: 2px solid orangered; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #d49af9 !important;
-    border-color: #d49af9 !important; }
+    background: orangered!important;
+    border-color: orangered!important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #4d4d4d;
     border: 1px solid #d9d9d9; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #CA82F8;
+      background: orangered;
       color: #fff; }
 
 .btn-success {
@@ -1230,7 +1223,7 @@ header {
       font-size: 16px;
       color: rgba(0, 0, 0, 0.5); }
     .contact-info li a {
-      color: #CA82F8; }
+      color: orangered; }
 
 .form-control {
   -webkit-box-shadow: none;
@@ -1262,7 +1255,7 @@ input[type="text"] {
 
 .colorlib-social-icons i {
   font-size: 24px;
-  color: #CA82F8; }
+  color: orangered; }
 
 #footer {
   padding: 8em 0;
@@ -1279,7 +1272,7 @@ input[type="text"] {
     text-decoration: none !important; }
   #footer p.colorlib-social-icons i {
     font-size: 24px;
-    color: #CA82F8; }
+    color: orangered; }
   #footer p .block {
     color: #1a1a1a;
     font-size: 14px; }
@@ -1314,3 +1307,65 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+.spotlight-group img{width: 100%;margin-top: 1vw;}
+.display-t2{margin: 1vw;padding: 2vw 3vw;
+   background-color: orangered; border:2px solid orangered; position: absolute;bottom:0; right: 0;}
+.display-t2 h2{color: #fff;font-weight: 900;}
+
+.video-js{margin: auto;width: 100%;position: relative;padding: 4vw; border:2px double #000;}
+
+
+<style>
+/*
+ * Custom Control:
+ * ---------------
+ */
+/* custom classes are always prefixed by "spl-" automatically */
+.spl-like{
+    background-size: 23px;
+}
+/* optionally, additional state to toggle the button: */
+.spl-like.on{
+}
+/*
+ * Custom Animation:
+ * -----------------
+ */
+/* custom scene transition (slide effect) */
+.only-this-gallery.show .spl-scene{
+    transition: transform 0.2s ease;
+}
+/* custom animation "visible state" (css context by custom classname "only-this-gallery" to apply these animation just on a specific gallery) */
+.only-this-gallery.show .spl-pane > *{
+    clip-path: circle(100% at center);
+    transition: transform 0.35s ease,
+                opacity 0.65s ease,
+                clip-path 0.8s ease;
+}
+/* custom animation "hidden state" ("custom" is the name of the animation you pass as gallery option) */
+.only-this-gallery .spl-pane .custom {
+    clip-path: circle(0px at center) ;
+    transition: transform 0.65s ease,
+                opacity 0.65s ease;
+}
+/* animation state when gallery is hidden */
+#spotlight.only-this-gallery{
+    clip-path: circle(0px at center);
+}
+/* animation state when gallery will open */
+#spotlight.only-this-gallery.show{
+    clip-path: circle(100% at center);
+    transition: clip-path 0.65s ease 0.15s;
+}
+
+@media(max-width:768px){
+  .article .blog-img .link .read {
+    font-size: 10px}
+    .mob-img{visibility: visible;overflow: hidden;}.mob-img img{width: 100%;}
+    .owl-carousel3 .item {display: none;}
+}
+@media(min-width:768px){
+.mob-img{display: none;}
+.owl-carousel3{visibility: visible;}
+
+}
